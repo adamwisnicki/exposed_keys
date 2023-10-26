@@ -5,8 +5,8 @@
 import requests
 
 # Hard-coded API key ID and secret
-API_KEY_ID = "AKIAW6RRNZ6C2RTT5BZG"
-API_KEY_SECRET = "VJL5zhbpRZZ8hpZKngKxG7wNdAfLhTdUN0d2jFGp"
+API_KEY_ID = "XXX"
+API_KEY_SECRET = "1234"
 
 # Example API request using the hard-coded key
 response = requests.get("https://example.com/api/v1/data", auth=(API_KEY_ID, API_KEY_SECRET))
